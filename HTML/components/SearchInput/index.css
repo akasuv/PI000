@@ -1,0 +1,9 @@
+.search-input-wrapper .result-list-wrapper {
+  display: none;
+}
+.search-input-wrapper.input-focused .result-list-wrapper{
+  display: initial;
+}
+.search-input-wrapper .input-wrapper .search.focused {
+    color: red;
+}

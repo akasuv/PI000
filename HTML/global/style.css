@@ -1,0 +1,10 @@
+:root {
+    --primary-font-family: arial, sans-serif;
+    --primary-font-size: 14px;
+    --primary-color: #222;
+    --secondary-font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    --secondary-font-size: 13px;
+    --secondary-color: rgba(0,0,0,0.87);
+    --highlighted-color: #1a0dab;
+    --input-label-color: #3c4043;
+}

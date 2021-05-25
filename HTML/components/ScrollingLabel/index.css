@@ -1,0 +1,34 @@
+@import "../../global/style.css";
+
+.scrolling-labels-wrapper {
+  height: 34px;
+  padding: 0 16px;
+  width: 111px;
+  position: relative;
+  background-color: #f8f9fa;
+  overflow: hidden;
+  color: var(--input-label-color);
+  border: 1px solid #f8f9fa;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.5s;
+}
+
+.scrolling-labels {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  width: 100%;
+}
+
+.scrolling-labels .label-item {
+  font-family: var(--primary-font-family);
+  font-size: var(--primary-font-size);
+  line-height: 36px;
+  height: 36px;
+  white-space: nowrap;
+}

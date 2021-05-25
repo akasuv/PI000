@@ -1,0 +1,36 @@
+.head {
+  border: 1px solid black;
+  display: flex;
+  height: 60px;
+  padding: 6px;
+}
+.head .left-col,
+.right-col {
+  display: flex;
+  align-items: center;
+}
+
+.head .right-col {
+  flex: auto;
+  justify-content: flex-end;
+}
+
+.head .left-col .col-item,
+.right-col .col-item {
+  display: flex;
+  align-items: center;
+}
+
+.head .left-col .col-item:nth-child(1) {
+  margin: 0 5px 0 15px;
+}
+.head .left-col .col-item:nth-child(2) {
+  margin: 0 5px;
+}
+.head .right-col .col-item:nth-child(1) {
+  margin-right: 15px;
+}
+.head .right-col .col-item:nth-child(2),
+.col-item:nth-child(3) {
+  padding: 4px;
+}

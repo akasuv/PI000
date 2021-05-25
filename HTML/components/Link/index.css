@@ -1,0 +1,52 @@
+@import "../../global/style.css";
+
+.link {
+  font-family: var(--primary-font-family);
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration-line: underline;
+}
+.link.link--primary,
+.link.link--primary:visited {
+  color: var(--primary-color);
+  font-size: var(--primary-font-size);
+}
+.link.link--secondary,
+.link.link--secondary:visited {
+  color: var(--secondary-color);
+  font-size: var(--secondary-font-size);
+}
+.link.link--secondary.link--highlighted {
+  color: var(--highlighted-color);
+}
+.link.icon,
+.link.image {
+  width: 40px;
+  height: 40px;
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.link.image {
+   padding: 4px;
+}
+.link.icon:hover,
+.link.image:hover {
+  border-radius: 50%;
+  background-color: rgba(60, 64, 67, 0.08);
+}
+
+.link.icon svg {
+  width: 24px;
+  height: 24px;
+  color: #5f6368;
+  fill: currentColor;
+}
+
+.link.image img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
