@@ -1,9 +1,9 @@
-// import createHead from "../../components/Head";
-// import createSearchInput from "../../components/SearchInput";
-// import createSubmitInput from "../../components/SubmitInput";
-// import createScrollingLabels from "../../components/ScrollingLabel";
-// import createFoot from "../../components/Foot";
-// import createLink from "../../components/Link";
+import createHead from "../../components/Head";
+import createSearchInput from "../../components/SearchInput";
+import createSubmitInput from "../../components/SubmitInput";
+import createScrollingLabels from "../../components/ScrollingLabel";
+import createFoot from "../../components/Foot";
+import createLink from "../../components/Link";
 
 /** create page container */
 let page = document.createElement('div');
