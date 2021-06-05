@@ -1,4 +1,4 @@
-import createLink from "../Link";
+import createLink from "../Link/index.js";
 
 function createFoot() {
   let footer = document.createElement("div");

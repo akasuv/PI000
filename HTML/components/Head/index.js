@@ -1,4 +1,4 @@
-import createLink from "../Link";
+import createLink from "../Link/index.js";
 // import "./index.css";
 
 function createHead() {

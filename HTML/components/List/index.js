@@ -1,5 +1,5 @@
 // import "./index.css";
-import createLink from "../Link";
+import createLink from "../Link/index.js";
 
 function createList(buttons) {
   let wrapper = document.createElement("div");
