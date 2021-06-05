@@ -1,8 +1,8 @@
-import createTextInput from "../Components/TextInput/index.js";
-import createList from "../Components/List/index.js";
+import createTextInput from "../components/TextInput/index.js";
+import createList from "../components/List/index.js";
 // import "./index.css";
-import createSubmitInput from "../Components/SubmitInput/index.js";
-import createScrollingLabels from "../Components/ScrollingLabel/index.js";
+import createSubmitInput from "../components/SubmitInput/index.js";
+import createScrollingLabels from "../components/ScrollingLabel/index.js";
 
 function createSearchInput() {
   let wrapper = document.createElement("div");
