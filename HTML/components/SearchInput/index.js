@@ -1,7 +1,8 @@
 import createTextInput from "../TextInput";
 import createList from "../List";
-import "./index.css";
+// import "./index.css";
 import createSubmitInput from "../SubmitInput";
+import createScrollingLabels from "../ScrollingLabel";
 
 function createSearchInput() {
   let wrapper = document.createElement("div");
@@ -33,7 +34,7 @@ function createSearchInput() {
   resultListWrapper.appendChild(
     createList([
       createSubmitInput("Google Search"),
-      createSubmitInput(`I'm feeling Lucky`),
+      createScrollingLabels()
     ])
   );
 

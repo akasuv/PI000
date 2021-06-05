@@ -1,7 +1,7 @@
-import "./index.css";
+// import "./index.css";
 function createScrollingLabels() {
   let wrapper = document.createElement("div");
-  wrapper.className = "scrolling-labels-wrapper";
+  wrapper.className = "scrolling-labels-wrapper submit-btn";
   wrapper.addEventListener("mouseenter", function (e) {
     const BASE_LENGTH = "I'm feeling lucky".length;
     let targetIndex = 0;

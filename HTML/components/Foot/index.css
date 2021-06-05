@@ -1,0 +1,37 @@
+@import "../../global/style.css";
+
+.footer {
+    display: flex;
+    background-color:#f2f2f2;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 47px;
+    align-items: center;
+}
+
+.link.footer-link {
+    margin: 15px;
+    color: #70705a;
+}
+.left-section, .right-section {
+    min-width: 30%;
+}
+
+.center-section {
+    display: flex;
+    align-items: center;
+}
+.center-section .link.footer-link {
+    margin: 0;
+    color: #70705a;
+}
+
+.neutral-icon {
+    height: 14px;
+    margin-right: 6px;
+}
+
+.right-section {
+    display: flex;
+    justify-content: flex-end;
+}

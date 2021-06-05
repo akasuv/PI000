@@ -1,4 +1,4 @@
-import "./index.css";
+// import "./index.css";
 
 function createTextInput(classes) {
   let inputWrapper = document.createElement("div");

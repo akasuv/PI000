@@ -4,8 +4,11 @@
   background-color: #fff;
   box-shadow: 0 4px 6px rgb(32 33 36 / 28%);
   border-radius: 0 0 24px 24px;
+    width: 100%;
   max-width: 584px;
   overflow: hidden;
+  position: absolute;
+  z-index: 1;
 }
 
 .list-wrapper .top-divider {

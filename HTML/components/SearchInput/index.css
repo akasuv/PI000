@@ -1,3 +1,7 @@
+.search-input-wrapper {
+    width: 100%;
+  max-width: 584px;
+}
 .search-input-wrapper .result-list-wrapper {
   display: none;
 }
@@ -5,5 +9,5 @@
   display: initial;
 }
 .search-input-wrapper .input-wrapper .search.focused {
-    color: red;
+  color: red;
 }

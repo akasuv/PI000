@@ -1,4 +1,4 @@
-import "./index.css";
+// import "./index.css";
 import createLink from "../Link";
 
 function createList(buttons) {
