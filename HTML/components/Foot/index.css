@@ -12,6 +12,8 @@
 .link.footer-link {
     margin: 15px;
     color: #70705a;
+    font-size: 14px;
+    font-family: Roboto,arial,sans-serif;
 }
 .left-section, .right-section {
     min-width: 30%;

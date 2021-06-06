@@ -2,6 +2,7 @@
   display: flex;
   height: 60px;
   padding: 6px;
+  box-sizing: border-box;
 }
 .head .left-col,
 .right-col {
@@ -12,6 +13,11 @@
 .head .right-col {
   flex: auto;
   justify-content: flex-end;
+  padding: 0 4px 0 32px;
+}
+
+.head .left-col .col-item .link {
+  padding: 5px;
 }
 
 .head .left-col .col-item,
@@ -26,10 +32,20 @@
 .head .left-col .col-item:nth-child(2) {
   margin: 0 5px;
 }
+
 .head .right-col .col-item:nth-child(1) {
-  margin-right: 15px;
+  padding-right: 15px;
 }
-.head .right-col .col-item:nth-child(2),
-.col-item:nth-child(3) {
+.head .right-col .col-item:nth-child(1) .link,
+.col-item:nth-child(2) .link {
+  line-height: 24px;
+}
+.head .right-col .col-item:nth-child(2) {
+  padding-right: 15px;
+}
+.head .right-col .col-item:nth-child(3) {
+  padding: 4px;
+}
+.head .right-col .col-item:last-child {
   padding: 4px;
 }
