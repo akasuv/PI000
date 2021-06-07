@@ -17,6 +17,7 @@ body, html {
 }
 
 .logo-container .logo {
+    max-height: 92px;
     margin-top: auto;
 }
 
@@ -35,8 +36,6 @@ body, html {
     display: flex;
     justify-content: center;
     padding-top: 18px;
-    position: absolute;
-    top: 53px;
     z-index: 0;
 }
 

@@ -1,11 +1,12 @@
 .search-input-wrapper {
-    width: 100%;
+  width: 100%;
   max-width: 584px;
+  padding-top: 6px;
 }
 .search-input-wrapper .result-list-wrapper {
   display: none;
 }
-.search-input-wrapper.input-focused .result-list-wrapper{
+.search-input-wrapper.input-focused .result-list-wrapper {
   display: initial;
 }
 .search-input-wrapper .input-wrapper .search.focused {

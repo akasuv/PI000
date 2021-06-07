@@ -20,6 +20,7 @@ function createScrollingLabels() {
   scrollingLabels.className = "scrolling-labels";
 
   let labelItems = [
+    "I'm Feeling Lucky",
     "I'm Feeling Curious",
     "I'm Feeling Hungry",
     "I'm Feeling Adventurous",

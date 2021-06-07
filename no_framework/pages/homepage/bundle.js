@@ -1,5 +1,5 @@
 (() => {
-  // HTML/components/Link/index.js
+  // no_framework/components/Link/index.js
   function createLink({
     label,
     href,
@@ -30,7 +30,7 @@
   }
   var Link_default = createLink;
 
-  // HTML/components/Head/index.js
+  // no_framework/components/Head/index.js
   function createHead() {
     let wrapper = document.createElement("div");
     wrapper.className = "head";
@@ -64,7 +64,7 @@
   }
   var Head_default = createHead;
 
-  // HTML/components/TextInput/index.js
+  // no_framework/components/TextInput/index.js
   function createTextInput(classes) {
     let inputWrapper = document.createElement("div");
     inputWrapper.className = "text-input-wrapper";
@@ -119,7 +119,7 @@
   }
   var TextInput_default = createTextInput;
 
-  // HTML/components/List/index.js
+  // no_framework/components/List/index.js
   function createList(buttons) {
     let wrapper = document.createElement("div");
     wrapper.className = "list-wrapper";
@@ -173,7 +173,7 @@
   }
   var List_default = createList;
 
-  // HTML/components/SubmitInput/index.js
+  // no_framework/components/SubmitInput/index.js
   function createSubmitInput(value = "Default Text") {
     let input = document.createElement("input");
     input.type = "submit";
@@ -183,7 +183,7 @@
   }
   var SubmitInput_default = createSubmitInput;
 
-  // HTML/components/ScrollingLabel/index.js
+  // no_framework/components/ScrollingLabel/index.js
   function createScrollingLabels() {
     let wrapper = document.createElement("div");
     wrapper.className = "scrolling-labels-wrapper submit-btn";
@@ -200,6 +200,7 @@
     let scrollingLabels = document.createElement("div");
     scrollingLabels.className = "scrolling-labels";
     let labelItems = [
+      "I'm Feeling Lucky",
       "I'm Feeling Curious",
       "I'm Feeling Hungry",
       "I'm Feeling Adventurous",
@@ -224,7 +225,7 @@
   }
   var ScrollingLabel_default = createScrollingLabels;
 
-  // HTML/components/SearchInput/index.js
+  // no_framework/components/SearchInput/index.js
   function createSearchInput() {
     let wrapper = document.createElement("div");
     wrapper.className = "search-input-wrapper";
@@ -260,7 +261,7 @@
   }
   var SearchInput_default = createSearchInput;
 
-  // HTML/components/Foot/index.js
+  // no_framework/components/Foot/index.js
   function createFoot() {
     let footer = document.createElement("div");
     footer.className = "footer";
@@ -291,7 +292,7 @@
   }
   var Foot_default = createFoot;
 
-  // HTML/pages/homepage/index.js
+  // no_framework/pages/homepage/index.js
   var page = document.createElement("div");
   page.className = "page";
   var head = Head_default();
